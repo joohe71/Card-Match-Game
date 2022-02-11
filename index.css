@@ -76,10 +76,12 @@ body {
 .card-back {
     transform: rotateY(180deg);
     background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
 p {
     font-size: 50px;
-    padding: 8px 0;
 }
