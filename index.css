@@ -70,7 +70,7 @@ body {
     position: absolute; /*카드 앞과 뒤를 일치*/
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /* backface-visibility는 -webkit-과 함께 써야 ios에서도 정상적으로 구현됨 */
     border: 4px solid black;
     border-radius: 20px;
 
